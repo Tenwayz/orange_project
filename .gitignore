@@ -1,0 +1,6 @@
+**/allure_reports/
+**/venv/
+**/__pycache__/
+**/pages/__pycache__/
+.venv
+.idea
