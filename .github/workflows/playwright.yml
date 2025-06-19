@@ -26,4 +26,4 @@ jobs:
         if: ${{ !cancelled() }}
         with:
           name: allure_report
-          path: reports/
+          path: ./allure_reports
