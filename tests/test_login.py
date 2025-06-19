@@ -38,7 +38,7 @@ def test_empty_name_field(login_page, username, password):
     with allure.step('Отображается ошибка о незаполненных полях'):
         expect(login_page.empty_field_1_message).to_be_visible()
     with allure.step('Текст ошибки - Required'):
-        assert login_page.get_empty_field_message() == 'Required'
+        assert login_page.get_empty_field_message() == 'Require'
 
 
 @allure.feature('Авторизация')
